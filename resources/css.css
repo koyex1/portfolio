@@ -118,6 +118,7 @@ width: calc(100% - 2rem);
 margin-left: var(--mb-2);
 margin-right: var(--mb-2);
 }
+
 .1-header{
 width: 100%;
 position: fixed;
@@ -125,13 +126,11 @@ top: 0px;
 background-color: red;
 left: 0;
 z-index: var(--z-fixed);
-
 }
 
 /*-- nav --*/
 .nav{
 height: var(--header-height);
-
 position: fixed;
 top: 0;
 display: flex;
@@ -141,6 +140,7 @@ background-color: var(--first-color-lighten);
 box-shadow: 0 2px 4px rgba(0,0,0,.1);
 z-index: 2;
 }
+
 .nav__menu{
 position: fixed;
 top: 0;
@@ -353,16 +353,25 @@ width: 80%
 width: 90%
 }
 .skills__react{
-width: 70%
+width: 90%
 }
 .skills__angular{
-width: 50%
+width: 40%
 }
 .skills__spring{
-width: 80%
+width: 60%
 }
 .skills__node{
-width: 70%
+width: 90%
+}
+.skills__java{
+    width: 60%;
+}
+.skills__mysql{
+    width: 95%;
+}
+.skills__mongodb{
+    width: 95%;
 }
 
 /*--education--*/
